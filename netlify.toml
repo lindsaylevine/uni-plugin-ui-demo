@@ -1,3 +1,6 @@
 [build]
   command = "ng build && ng run uni-plugin-ui-demo:serverless:production"
   publish = "dist/uni-plugin-ui-demo/browser"
+
+[[plugins]]
+  package = "@netlify/plugin-angular-universal"
